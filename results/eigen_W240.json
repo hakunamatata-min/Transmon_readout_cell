@@ -1,0 +1,33 @@
+{
+  "width_um": 240.0,
+  "frequencies_raw": [
+    4929651507.93946,
+    6389739168.63893
+  ],
+  "units": {
+    "Mode(1)": "",
+    "Mode(2)": ""
+  },
+  "setup": {
+    "ID": 0,
+    "SetupType": "HfssEigen",
+    "MinimumFrequency": "2GHz",
+    "NumModes": 2,
+    "MaxDeltaFreq": 0.3,
+    "ConvergeOnRealFreq": false,
+    "MaximumPasses": 16,
+    "MinimumPasses": 3,
+    "MinimumConvergedPasses": 2,
+    "PercentRefinement": 25,
+    "IsEnabled": true,
+    "MeshLink": {
+      "ImportMesh": false
+    },
+    "BasisOrder": 1,
+    "DoLambdaRefine": true,
+    "DoMaterialLambda": true,
+    "SetLambdaTarget": false,
+    "Target": 0.2,
+    "UseMaxTetIncrease": false
+  }
+}

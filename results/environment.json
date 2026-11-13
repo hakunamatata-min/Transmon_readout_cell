@@ -1,0 +1,14 @@
+{
+  "python": "3.14.10 | packaged by Anaconda, Inc. | (main, Oct 27 2026, 01:09:10) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "<recorded local Python executable>",
+  "packages": {
+    "quantum-metal": "0.9.0",
+    "pyaedt": "1.9.0",
+    "pyEPR-quantum": "1.0.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pandas": "3.1.1",
+    "qutip": "5.3.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "width_um": 200.0,
+  "frequencies_raw": [
+    4958857669.75916,
+    6429254042.75169
+  ],
+  "units": {
+    "Mode(1)": "",
+    "Mode(2)": ""
+  },
+  "setup": {
+    "MinimumFrequency": "2GHz",
+    "NumModes": 2,
+    "MaxDeltaFreq": 0.3,
+    "ConvergeOnRealFreq": false,
+    "MaximumPasses": 16,
+    "MinimumPasses": 3,
+    "MinimumConvergedPasses": 2,
+    "PercentRefinement": 25,
+    "IsEnabled": true,
+    "MeshLink": {
+      "ImportMesh": false
+    },
+    "BasisOrder": 1,
+    "DoLambdaRefine": true,
+    "DoMaterialLambda": true,
+    "SetLambdaTarget": false,
+    "Target": 0.2,
+    "UseMaxTetIncrease": false,
+    "Name": "EigenSetup",
+    "SaveFields": true
+  }
+}

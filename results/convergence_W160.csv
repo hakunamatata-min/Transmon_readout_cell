@@ -1,0 +1,30 @@
+DesignVariation : Lj='16nH'
+Setup : EigenSetup
+
+==================
+Number of Passes
+Completed : 12
+Maximum   : 16
+Minimum   : 3
+==================
+Criterion : Max Delta Freq. %
+Target    : 0.3
+Current   : 0.1828
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Delta Freq. %|
+          1|           8620|              N/A|
+          2|          10713|           3.7144|
+          3|          13239|           18.005|
+          4|          16303|           13.396|
+          5|          20033|           4.1561|
+          6|          24478|           3.4565|
+          7|          30179|           1.1011|
+          8|          37203|          0.60567|
+          9|          45801|          0.48601|
+         10|          56427|          0.43532|
+         11|          69527|          0.24079|
+         12|          85657|           0.1828|
+

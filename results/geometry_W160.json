@@ -1,0 +1,72 @@
+{
+  "pad_width_um": 160.0,
+  "junction_nH": 16.0,
+  "resonator_length_mm": 4.0,
+  "coupling_length_um": 250.0,
+  "coupling_space_um": 5.0,
+  "silicon_um": 500.0,
+  "components": [
+    "Q1",
+    "Tee",
+    "P1",
+    "P2",
+    "FeedLeft",
+    "FeedRight",
+    "Readout"
+  ],
+  "stack": [
+    {
+      "chip_name": "main",
+      "layer": 1,
+      "datatype": 0,
+      "material": "pec",
+      "thickness": "0.2um",
+      "z_coord": "0um",
+      "fill": "true"
+    },
+    {
+      "chip_name": "main",
+      "layer": 3,
+      "datatype": 0,
+      "material": "silicon",
+      "thickness": "-500um",
+      "z_coord": "0um",
+      "fill": "true"
+    }
+  ],
+  "resonator_options": {
+    "chip": "main",
+    "layer": "1",
+    "pin_inputs": {
+      "start_pin": {
+        "component": "Q1",
+        "pin": "readout"
+      },
+      "end_pin": {
+        "component": "Tee",
+        "pin": "second_end"
+      }
+    },
+    "fillet": "60um",
+    "lead": {
+      "start_straight": "150um",
+      "end_straight": "150um",
+      "start_jogged_extension": "",
+      "end_jogged_extension": ""
+    },
+    "total_length": "4.0mm",
+    "trace_width": "cpw_width",
+    "meander": {
+      "spacing": "150um",
+      "asymmetry": "0um"
+    },
+    "snap": "true",
+    "prevent_short_edges": "true",
+    "hfss_wire_bonds": false,
+    "q3d_wire_bonds": false,
+    "aedt_q3d_wire_bonds": false,
+    "aedt_hfss_wire_bonds": false,
+    "trace_gap": "cpw_gap",
+    "_actual_length": "3.9999999999999987 mm"
+  }
+}

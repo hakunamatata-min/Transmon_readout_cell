@@ -1,0 +1,28 @@
+DesignVariation : Lj='16nH'
+Setup : ReadoutSetup
+
+==================
+Number of Passes
+Completed : 10
+Maximum   : 16
+Minimum   : 3
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.01
+Current   : 0.0095754
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|          42029|             N/A|
+          2|          51828|         0.22892|
+          3|          63924|          0.3162|
+          4|          78714|         0.25637|
+          5|          96767|         0.16656|
+          6|         118798|        0.094355|
+          7|         146372|        0.038357|
+          8|         180673|        0.015367|
+          9|         222890|       0.0089292|
+         10|         274886|       0.0095754|
+

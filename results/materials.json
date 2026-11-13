@@ -1,0 +1,16 @@
+{
+  "silicon_relative_permittivity": "11.9",
+  "silicon_conductivity": "0",
+  "silicon_loss_tangent": "0",
+  "conductor": "PEC",
+  "nominal_metal_thickness_um": 0.2,
+  "nominal_substrate_thickness_um": 500,
+  "metal_bbox_mm": [
+    -0.905,
+    -1.0125,
+    0.0,
+    -0.815,
+    -0.5875,
+    0.0002
+  ]
+}

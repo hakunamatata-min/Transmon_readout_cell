@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "geometry_invariance_passed": true,
+  "checks": [
+    {
+      "width_um": 160,
+      "eigen_and_driven_converged": true,
+      "units_cross_checked": true,
+      "complex_fit_rms": 3.056599413823933e-06,
+      "points_per_linewidth": 7.3737420488633285,
+      "broad_vs_fine_linewidth_change_pct": 0.0012582652004117466,
+      "max_reciprocity_error": 1.3545533139012143e-14,
+      "max_lossless_power_balance_error": 8.651659388902999e-10
+    },
+    {
+      "width_um": 200,
+      "eigen_and_driven_converged": true,
+      "units_cross_checked": true,
+      "complex_fit_rms": 2.823124006331539e-06,
+      "points_per_linewidth": 7.233509673194808,
+      "broad_vs_fine_linewidth_change_pct": 0.0002745582417090586,
+      "max_reciprocity_error": 4.6818152337592315e-15,
+      "max_lossless_power_balance_error": 7.001321744581901e-10
+    },
+    {
+      "width_um": 240,
+      "eigen_and_driven_converged": true,
+      "units_cross_checked": true,
+      "complex_fit_rms": 4.153150709571522e-06,
+      "points_per_linewidth": 7.25400790203425,
+      "broad_vs_fine_linewidth_change_pct": 0.00045007389635757573,
+      "max_reciprocity_error": 2.0944427980565157e-14,
+      "max_lossless_power_balance_error": 2.0536099487600268e-09
+    }
+  ],
+  "limitations": [
+    "Purcell estimate uses a single-mode dispersive model",
+    "g is inferred from EPR cross-Kerr, not independently extracted",
+    "Ideal PEC / lossless substrate; no measured device T1 or fidelity"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "frequency_unit": {
+    "Lj": "nH",
+    "Freq": "GHz"
+  },
+  "expression": "S(Port_P2_in:1,Port_P1_in:1)",
+  "minimum_frequency_GHz": 6.383739168638931,
+  "minimum_magnitude": 0.7085595318118085
+}

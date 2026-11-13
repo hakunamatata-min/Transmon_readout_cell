@@ -1,0 +1,10 @@
+# Saved-data analysis and presentation; verified with Python 3.14.10.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+matplotlib==3.11.2
+ipykernel==7.4.0
+jupyterlab==4.6.6
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.2

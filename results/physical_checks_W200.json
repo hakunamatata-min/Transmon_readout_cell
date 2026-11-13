@@ -1,0 +1,6 @@
+{
+  "s21_expression": "S(Port_P2_in:1,Port_P1_in:1)",
+  "sweep": "ReadoutSetup : Fine",
+  "max_reciprocity_error": 4.6818152337592315e-15,
+  "max_lossless_power_balance_error": 7.001321744581901e-10
+}

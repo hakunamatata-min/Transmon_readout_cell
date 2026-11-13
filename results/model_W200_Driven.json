@@ -1,0 +1,199 @@
+{
+  "project": "models/readout_cell_v2.aedt",
+  "design": "W200_Driven",
+  "objects": [
+    "layer_1_datatype_0_plane",
+    "layer_3_datatype_0_plane",
+    "vacuum_box",
+    "readout_wire_Q1_shortline",
+    "prime_cpw_Tee_shortline",
+    "second_cpw_Tee_shortline",
+    "trace_FeedLeft_shortline",
+    "trace_FeedRight_shortline",
+    "trace_Readout_shortline",
+    "pad_top_Q1",
+    "pad_bot_Q1",
+    "readout_connector_pad_Q1",
+    "launch_pad_P1",
+    "launch_pad_P2",
+    "JJ_rect_Lj_1_rect_jj",
+    "Port_P1_in",
+    "Port_P2_in",
+    "JJ_Lj_1_rect_jj_"
+  ],
+  "boundaries": [
+    {
+      "name": "rlc_JJ_rect_Lj_1_rect_jj",
+      "type": "Lumped RLC",
+      "props": {
+        "ID": 0,
+        "BoundType": "Lumped RLC",
+        "IsComponent": false,
+        "Objects": [
+          2182
+        ],
+        "ParentBndID": -1,
+        "CurrentLine": {
+          "GeometryPosition": [
+            {
+              "IsAttachedToEntity": true,
+              "EntityID": 2179,
+              "ParentIDs": [
+                2178
+              ],
+              "FacetedBodyTriangleIndex": -1,
+              "TriangleVertexIndex": -1,
+              "hasXYZ": true,
+              "PositionType": "OnVertex",
+              "UParam": 0,
+              "VParam": 0,
+              "XPosition": "-0.785",
+              "YPosition": "-0.8",
+              "ZPosition": "0.0001"
+            },
+            {
+              "IsAttachedToEntity": true,
+              "EntityID": 2180,
+              "ParentIDs": [
+                2178
+              ],
+              "FacetedBodyTriangleIndex": -1,
+              "TriangleVertexIndex": -1,
+              "hasXYZ": true,
+              "PositionType": "OnVertex",
+              "UParam": 0,
+              "VParam": 0,
+              "XPosition": "-0.815",
+              "YPosition": "-0.8",
+              "ZPosition": "0.0001"
+            }
+          ]
+        },
+        "RLC Type": "Parallel",
+        "UseResist": false,
+        "UseInduct": true,
+        "Inductance": "Lj",
+        "UseCap": false
+      }
+    },
+    {
+      "name": "Port_P1_in",
+      "type": "Lumped Port",
+      "props": {
+        "ID": 1,
+        "BoundType": "Lumped Port",
+        "IsComponent": false,
+        "Objects": [
+          2269
+        ],
+        "LumpedPortType": "Default",
+        "DoDeembed": false,
+        "ParentBndID": -1,
+        "ImpedanceType": "Impedance",
+        "Modes": {
+          "Mode1": {
+            "ModeNum": 1,
+            "UseIntLine": true,
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "IsAttachedToEntity": true,
+                  "EntityID": 2274,
+                  "FacetedBodyTriangleIndex": -1,
+                  "TriangleVertexIndex": -1,
+                  "hasXYZ": true,
+                  "PositionType": "EdgeCenter",
+                  "UParam": 0,
+                  "VParam": 0,
+                  "XPosition": "-2.26",
+                  "YPosition": "1",
+                  "ZPosition": "0.0001"
+                },
+                {
+                  "IsAttachedToEntity": true,
+                  "EntityID": 2272,
+                  "FacetedBodyTriangleIndex": -1,
+                  "TriangleVertexIndex": -1,
+                  "hasXYZ": true,
+                  "PositionType": "EdgeCenter",
+                  "UParam": 0,
+                  "VParam": 0,
+                  "XPosition": "-2.202",
+                  "YPosition": "1",
+                  "ZPosition": "0.0001"
+                }
+              ]
+            },
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "RenormImp": "50ohm"
+          }
+        },
+        "LumpedPortSheetID": -1,
+        "Impedance": "50ohm"
+      }
+    },
+    {
+      "name": "Port_P2_in",
+      "type": "Lumped Port",
+      "props": {
+        "ID": 2,
+        "BoundType": "Lumped Port",
+        "IsComponent": false,
+        "Objects": [
+          2280
+        ],
+        "LumpedPortType": "Default",
+        "DoDeembed": false,
+        "ParentBndID": -1,
+        "ImpedanceType": "Impedance",
+        "Modes": {
+          "Mode1": {
+            "ModeNum": 1,
+            "UseIntLine": true,
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "IsAttachedToEntity": true,
+                  "EntityID": 2285,
+                  "FacetedBodyTriangleIndex": -1,
+                  "TriangleVertexIndex": -1,
+                  "hasXYZ": true,
+                  "PositionType": "EdgeCenter",
+                  "UParam": 0,
+                  "VParam": 0,
+                  "XPosition": "2.26",
+                  "YPosition": "1",
+                  "ZPosition": "0.0001"
+                },
+                {
+                  "IsAttachedToEntity": true,
+                  "EntityID": 2283,
+                  "FacetedBodyTriangleIndex": -1,
+                  "TriangleVertexIndex": -1,
+                  "hasXYZ": true,
+                  "PositionType": "EdgeCenter",
+                  "UParam": 0,
+                  "VParam": 0,
+                  "XPosition": "2.202",
+                  "YPosition": "1",
+                  "ZPosition": "0.0001"
+                }
+              ]
+            },
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "RenormImp": "50ohm"
+          }
+        },
+        "LumpedPortSheetID": -1,
+        "Impedance": "50ohm"
+      }
+    }
+  ],
+  "solution_type": "Modal",
+  "excitations": [
+    "Port_P1_in:1",
+    "Port_P2_in:1"
+  ]
+}
